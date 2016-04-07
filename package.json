@@ -1,0 +1,29 @@
+{
+  "name": "@tetris/debug-middleware",
+  "version": "0.0.0",
+  "description": "detects debug variable and set req.debugMode flag",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava tests"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tetris-solutions/debug-middleware.git"
+  },
+  "keywords": [
+    "debug",
+    "express"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tetris-solutions/debug-middleware/issues"
+  },
+  "homepage": "https://github.com/tetris-solutions/debug-middleware#readme",
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "node-mocks-http": "^1.5.2"
+  }
+}
