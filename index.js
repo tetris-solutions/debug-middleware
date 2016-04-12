@@ -35,4 +35,4 @@ function debugMiddleware (req, res, next) {
   return next()
 }
 
-exports.debugMiddleware = debugMiddleware
+module.exports = debugMiddleware
