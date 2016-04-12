@@ -1,6 +1,6 @@
 {
   "name": "@tetris/debug-middleware",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "detects debug variable and set req.debugMode flag",
   "main": "index.js",
   "scripts": {
